@@ -11,6 +11,6 @@ nó bằng lệnh [git remote add origin https://github.com/tuantran83bt/tuantra
 B4. Tạo một thư mục chứa nó trong tài khoản github bằng lệnh [git branch -M main] 
 trong đó main là tên thư mục muốn đặt ví dụ thay main bằng duan...
 B5. Đẩy tập tin vào môi trường git trên window để chuẩn bị pust
-bằng lệnh [git add list.py]
+bằng lệnh [git add list.py] và commit bằng lệnh [git commit -m "first commit"]
 B6. pust lên github.com bằng lệnh [git push -u origin main], lần đầu
 nhập mật khẩu và email tài khoản github.com

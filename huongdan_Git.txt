@@ -1,0 +1,16 @@
+B1.Cài đặt git trên window, kiểm tra bẳng lệnh [git version] trong cmd
+và tạo 1 accoun git trên môi trường máy tính bằng lệnh:
+    [git config --golbal user.name "tuantran83bt"]
+    [git config --golbal user.email "tuantran83bt@gmail.com"]
+các tài khoản trên giống tài khoản đã tạo trên github, sau đó kiểm tra
+lại bằng lệnh [git config --list]
+B2.Tạo môi trường git trên window tại thư mục muốn làm việc với github
+bằng lệnh [git init] (thư mục chứa file cần đưa lên github.com)
+B3. tạo tài khoản github.com và liên kết đến tài khoản và thư mục chứa
+nó bằng lệnh [git remote add origin https://github.com/tuantran83bt/tuantran_project.git]
+B4. Tạo một thư mục chứa nó trong tài khoản github bằng lệnh [git branch -M main] 
+trong đó main là tên thư mục muốn đặt ví dụ thay main bằng duan...
+B5. Đẩy tập tin vào môi trường git trên window để chuẩn bị pust
+bằng lệnh [git add list.py]
+B6. pust lên github.com bằng lệnh [git push -u origin main], lần đầu
+nhập mật khẩu và email tài khoản github.com

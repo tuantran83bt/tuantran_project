@@ -1,7 +1,7 @@
 B1.Cài đặt git trên window, kiểm tra bẳng lệnh [git version] trong cmd
 và tạo 1 accoun git trên môi trường máy tính bằng lệnh:
-    [git config --golbal user.name "tuantran83bt"]
-    [git config --golbal user.email "tuantran83bt@gmail.com"]
+    [git config --golbal user.name "your_name"]
+    [git config --golbal user.email "your_email@gmail.com"]
 các tài khoản trên giống tài khoản đã tạo trên github, sau đó kiểm tra
 lại bằng lệnh [git config --list]
 B2.Tạo môi trường git trên window tại thư mục muốn làm việc với github
